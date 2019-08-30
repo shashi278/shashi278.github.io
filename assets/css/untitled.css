@@ -9,7 +9,7 @@
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
-  justify-content: center;
+  /*justify-content: center;*/
 }
 
 .fa.fa-facebook.fa-fw {
