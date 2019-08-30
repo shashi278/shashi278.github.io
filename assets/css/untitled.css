@@ -1,0 +1,17 @@
+.col-md-4 {
+  width: 0;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  justify-content: center;
+}
+
+.fa.fa-facebook.fa-fw {
+}
+
