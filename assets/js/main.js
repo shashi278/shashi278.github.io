@@ -8,7 +8,7 @@ window.onload = ()=>{
       //domain: {column: 1},
       name: 'CO2 Emissions',
       hoverinfo: 'label',
-      hole: .3,
+      hole: .5,
       type: 'pie'
     }];
 
@@ -25,13 +25,13 @@ window.onload = ()=>{
           y: 0.5
         }
       ],
-      height: 350,
-      width: 350,
-      showlegend: false,
+      height: 400,
+      width: 400,
+      showlegend: true,
       grid: {rows: 1, columns: 1}
     };
 
-    Plotly.newPlot('plotsec', data, layout, {displaylogo: false, modeBarButtonsToRemove: ['toImage', 'hoverClosestPie']});
+    Plotly.newPlot('plotsec', data, layout, {displaylogo: false, modeBarButtonsToRemove: ['toImage', 'hoverClosestPie'], responsive:true});
     
     //axios get
     var url = "https://api.nasa.gov/planetary/apod?api_key=97vrxZrBhbfurn9eOCvqpXnPKLI4cscixcruQ4AK";
